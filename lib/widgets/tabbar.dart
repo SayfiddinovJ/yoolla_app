@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../utils/app_tools.dart';
+
 class TabBarr extends StatelessWidget {
   const TabBarr({super.key});
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: width*(35/375)),
+      padding: EdgeInsets.symmetric(horizontal: width * (35 / 375)),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -18,7 +18,8 @@ class TabBarr extends StatelessWidget {
           SvgPicture.asset(AppIcons.menu),
           SvgPicture.asset(AppIcons.basket),
           SvgPicture.asset(AppIcons.accountIcon),
-      ],),
+        ],
+      ),
     );
   }
 }

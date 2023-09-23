@@ -1,4 +1,4 @@
-class AppIcons{
+class AppIcons {
   static String account = 'assets/images/account.png';
   static String accountIcon = 'assets/icons/account_icon.svg';
   static String arrow = 'assets/icons/arrow.svg';
